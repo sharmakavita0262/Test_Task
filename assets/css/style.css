@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ededed;
+}
+
+.container {
+    width: 360px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+.pokemon-option-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.pokemon-text h3 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    padding-top: 20px;
+}
+
+.pokemon-error h6 {
+    color: #D33838;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.pokemon-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pokemon-image {
+    width: 180px;
+    height: 180px;
+    margin: 20px auto 10px auto;
+}
+.pokemon-option-list button {
+    width: 140px;
+    height: 55px;
+    background-color: #3678DC;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    border-radius: 11px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.pokemon-points {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 30px;
+}
+
+button.pokemon-red {
+    background-color: #D33838;
+}
+
+button.pokemon-green {
+    background-color: #31A335;
+}
+
+div#optionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}

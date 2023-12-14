@@ -1,0 +1,33 @@
+body {
+    background-image: url(./images/pokemon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; 
+    color: red;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px
+}
+#goodluck {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#startquiz {
+    text-align: center;
+}
+#highscores {
+    padding: 10px;
+}
+#countdown {
+    white-space: nowrap;
+}
+#quizAdjust {
+    margin-top: 30px;
+    padding-left: 30px;
+}
